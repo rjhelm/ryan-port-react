@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
       <Header />
+      <>
       <main>
         {/* About */}
         {/* Portfolio */}
@@ -12,6 +13,7 @@ function App() {
         {/* Contact */}
       </main>
       {/* Footer */}
+      </>
     </div>
   );
 }
