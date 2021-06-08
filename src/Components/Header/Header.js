@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React, { useState } from 'react';
 import '../../index.css';
 import { motion } from 'framer-motion';
@@ -5,11 +6,11 @@ import { animateScroll as scroll, Link } from 'react-scroll';
 
 
 const Header = () => {
-    
+
     const [navbar, setNavbar] = useState(false);
     const [navClicked, setNavClicked] = useState(false);
 
-    
+
     const handleClick = () => {
         setNavClicked(!navClicked);
     };
@@ -29,10 +30,10 @@ const Header = () => {
     return (
         <div className={navbar ? "nav-wrapper active" : "nav wrapper"}>
             <motion.div id="navbar" className={navbar ? "nav-container active" : "nav-container"}
-             initial={{ opacity: 0, }} 
-             animate={{ opacity: 1, }}
-             transition={{ opacity: 1.5, }}
-             >
+                initial={{ opacity: 0, }}
+                animate={{ opacity: 1, }}
+                transition={{ opacity: 1.5, }}
+            >
                 <span className="logo" onClick={() => scroll.scrollToTop()}></span>
                 {/* Mobile Icon */}
                 <div className="menu-icon" onClick={handleClick}>
@@ -41,7 +42,54 @@ const Header = () => {
                 {/* Links */}
                 <ul className={navClicked ? "anchor scrolled" : "nav-links"}>
                     <li className="link">
-
+                        <Link className={navbar ? "anchor scrolled" : "anchor"}
+                            activeClass="active"
+                            to="about"
+                            hashSpy={true}
+                            spy={true}
+                            smooth={true}
+                            delay={100}
+                            offset={offset}
+                            duration={500}
+                        >
+                            About
+                        </Link>
+                        <Link className={navbar ? "anchor scrolled" : "anchor"}
+                                activeClass="active"
+                                to="portfolio"
+                                hashSpy={true}
+                                spy={true}
+                                smooth={true}
+                                delay={100}
+                                offset={offset}
+                                duration={500}
+                        >
+                            Portfolio
+                        </Link>
+                        <Link className={navbar ? "anchor scrolled" : "anchor"}
+                                activeClass="active"
+                                to="Resume"
+                                hashSpy={true}
+                                spy={true}
+                                smooth={true}
+                                delay={100}
+                                offset={offset}
+                                duration={500}
+                        >
+                            Resume
+                        </Link>
+                        <Link className={navbar ? "anchor scrolled" : "anchor"}
+                            activeClass="contact"
+                            to="home"
+                            hashSpy={true}
+                            spy={true}
+                            smooth={true}
+                            delay={100}
+                            offset={offset}
+                            duration={500}
+                        >
+                            Contact
+                        </Link>
                     </li>
                 </ul>
             </motion.div>
