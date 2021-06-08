@@ -1,34 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
+import '../../index.css';
+import { motion } from 'framer-motion';
+import { animateScroll as scroll, Link } from 'react-scroll';
 
 
-function Header() {
+const Header = () => {
+    
+    const [navbar, setNavbar] = useState(false);
+    const [navClicked, setNavClicked] = useState(false);
+
+    
+    const handleClick = () => {
+        setNavClicked(!navClicked);
+    };
+
+    // allow for a sttyle change when scrolling on page
+    const changeNav = () => {
+        if (window.scrollY >= 50) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    };
+
+    // on scroll event listener
+    window.addEventListener("scroll", changeNav);
+
     return (
-        <header className="flex-row px-1">
+        <div className={navbar ? "nav-wrapper active" : "nav wrapper"}>
+            <motion.div id="navbar" className={navbar ? "nav-container active" : "nav-container"}
+             initial={{ opacity: 0, }} 
+             animate={{ opacity: 1, }}
+             transition={{ opacity: 1.5, }}
+             >
+                <span className="logo" onClick={() => scroll.scrollToTop()}></span>
+                {/* Mobile Icon */}
+                <div className="menu-icon" onClick={handleClick}>
+                    <i className={navClicked ? "fas fa-times" : "fas fa-bars"}></i>
+                </div>
+                {/* Links */}
+                <ul className={navClicked ? "anchor scrolled" : "nav-links"}>
+                    <li className="link">
 
-            <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
-                        <a href="#about">About</a>
-                    </li>
-                    <li className="mx-2">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li className="mx-2">
-                        <a href="#contact">Contact</a>
-                    </li>
-                    <li className="mx-2">
-                        <a href="#resume">Resume</a>
                     </li>
                 </ul>
-            </nav>
-
-            <div className="logo">
-                <a href="/">
-                    <img alt="" />
-                </a>
-            </div>
-
-        </header>
+            </motion.div>
+        </div>
     )
 }
 
