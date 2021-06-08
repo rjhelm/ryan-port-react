@@ -2,9 +2,11 @@ import React from 'react'
 
 function About() {
     return (
-        <div>
-            
-        </div>
+        <section id="about" className="my-2">
+            <div className="my-2">
+                {/* About Body */}
+            </div>
+        </section>
     )
 }
 
