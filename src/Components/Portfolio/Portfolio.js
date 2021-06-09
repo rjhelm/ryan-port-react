@@ -1,22 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import Project from './Project';
+import React from 'react';
+import ProjectList from './ProjectList';
 
-const Portfolio = ({ projects }) => {
-    const [count, setCount] = useState(8)
-    const [items, setItems] = useState([])
-
-    useEffect(() => {
-        setItems(projects.slice(0, count))
-    }, [count, projects])
-
+const Portfolio = () => {
+    
     return (
         <section>
-            {/* Projects */}
-            <div className="project-cards">
-                {items && items.map((project, index) => <Project project={project} key={index} />)}
-            </div>
+            <ProjectList />
         </section>
-    )
+    );
 }
 
-export default Portfolio
+
+export default Portfolio;
