@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import '../../index.css';
 
-function Footer() {
+const Footer = () => {
     return (
-        <div className="footer">
-            
+        <div className="footer-container">
+            <nav className="social-nav">
+                
+            </nav>
         </div>
     )
 }
 
-export default Footer
+export default Footer;
