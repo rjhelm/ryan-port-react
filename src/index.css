@@ -86,3 +86,65 @@ li {
 .menu-icon {
   display: none;
 }
+
+/* About Styles */
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  height: 100%;
+  padding: 1.87rem;
+  margin-top: 2.5rem;
+}
+
+.main-content {
+  font-size: 3rem;
+}
+
+.skill-content {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: gold;
+  margin: 0.6rem 0;
+}
+
+.skill-animation {
+  height: 60px;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.hand {
+  display: inline-block;
+  margin: 0.9 rem;
+  cursor: pointer;
+}
+
+.welcome-content {
+  color: black;
+}
+
+.svg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  width: 50vw;
+  height: 32rem;
+}
+
+.svg {
+  height: 75%;
+}
