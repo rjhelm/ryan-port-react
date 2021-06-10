@@ -1,14 +1,12 @@
 import React from 'react';
-import '../../index.css';
+import './footer.css';
 
 const Footer = () => {
     return (
         <div className="footer-container">
-            <div className="social-links">
-                {/* GitHub */}
-                {/* LinkedIn */}
-                {/* Twitter */}
-                {/* Email */}
+            <div className="inner-container">
+                {/* Social Links */}
+                {/* Author */}
             </div>
         </div>
     )
