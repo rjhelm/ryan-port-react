@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2.5rem 0;
+    padding: 10px;
+}
+
+.heading {
+    max-width: 60vh;
+}
+
+@media(max-width: 450px) {
+    .form {
+        width: 55vh;
+    }
+}
