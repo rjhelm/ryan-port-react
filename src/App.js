@@ -1,16 +1,15 @@
-import React, { useState } from 'react';
-import Header from './Components/Header';
+import React from 'react';
+import Header from './Components/Header/Header';
+import About from './Components/About/About';
 
 function App() {
-  const [] = useState([
-    { name: ''}
-  ])
+  
   return (
     <div>
       <Header />
       <>
       <main>
-        {/* About */}
+        <About />
         {/* Portfolio */}
         {/* Resume */}
         {/* Contact */}

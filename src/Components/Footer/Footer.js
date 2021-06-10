@@ -4,9 +4,12 @@ import '../../index.css';
 const Footer = () => {
     return (
         <div className="footer-container">
-            <nav className="social-nav">
-                
-            </nav>
+            <div className="social-links">
+                {/* GitHub */}
+                {/* LinkedIn */}
+                {/* Twitter */}
+                {/* Email */}
+            </div>
         </div>
     )
 }
