@@ -1,8 +1,9 @@
 import React from 'react';
 import useWebAnimations, { rubberBand } from '@wellyshen/use-web-animations';
 import styles from './about.module.css';
-import appStyles from '../../app.module.css';
+import appStyles from "../../app.module.css";
 import Slide from 'react-reveal/Slide';
+import avatar from "../../assets/images/avatar.jpg";
 
 const About = () => {
     const { ref: refRubber, getAnimation } = useWebAnimations({ ...rubberBand });
@@ -13,8 +14,11 @@ const About = () => {
                 About
             </h1>
             <div className={styles.contentContainer}>
-                <Slide left>
-                    <img src=" " alt="developer section" />
+                <Slide left className=" ">
+                <img
+                src={avatar}
+                alt="developer illustration"
+            />
                 </Slide>
                 <Slide right>
                     <div className={styles.content}>

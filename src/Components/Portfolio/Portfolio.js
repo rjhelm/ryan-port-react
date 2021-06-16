@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React from 'react';
 import PortfolioCard from './PortfolioCard';
 import styles from './portfolio.module.css';

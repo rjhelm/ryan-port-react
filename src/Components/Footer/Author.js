@@ -3,7 +3,9 @@ import React from 'react';
 const Author = ({ className }) => {
     return (
         <div className={className}>
-            <img src=" " alt=" " />
+            <p>
+                <strong>ryanj_dev</strong>
+            </p>
         </div>
     )
 }

@@ -1,22 +1,35 @@
 import React from 'react';
-import Header from './Components/Header/Header';
-import About from './Components/About/About';
+import {
+  Header,
+  HeroContainer,
+  About,
+  Skills,
+  Portfolio,
+  Contact,
+  Footer,
+} from "./components";
+import Container from '@material-ui/core/Container';
+import config from 'react-reveal/globals';
+import { data } from './data';
+import styles from './app.module.css';
 
-function App() {
-  
+
+const App = () => {
+  const navList = ['Home', 'About', 'Portfolio', 'Contact'];
+  config({ ssrFadeout: true });
+
   return (
-    <div>
-      <Header />
       <>
-      <main>
+      <Container maxWidth="lg" className={styles.container}>
+        <Header list={navList} />
+        <HeroContainer />
         <About />
-        {/* Portfolio */}
-        {/* Resume */}
-        {/* Contact */}
-      </main>
-      {/* Footer */}
+        <Skills />
+        <Portfolio data={data} />
+        <Contact />
+        <Footer />
+      </Container>
       </>
-    </div>
   );
 }
 

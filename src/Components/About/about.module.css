@@ -1,12 +1,13 @@
 .aboutContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 img {
     width: 50%;
+    image-resolution: -webkit-backdrop-filter grayscale(100%);
 }
 
 .contentContainer {
@@ -17,9 +18,10 @@ img {
 .content {
     display: flex;
     align-items: center;
-    width: 50%;
-    margin: 1rem 0;
-    padding: 0 0 0 1.2rem;
+    width: 40%;
+    margin: 3rem 0;
+    padding: 0 3.25rem 0 1.2rem;
+    
 }
 
 @media only screen and (max-width: 480px) {

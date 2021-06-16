@@ -1,8 +1,10 @@
 import React from 'react';
 import useWebAnimations, { bounceInLeft, bounceInRight } from '@wellyshen/use-web-animations';
-import styles from './hero.modules.css';
+import styles from './hero.module.css';
+
 
 const HeroContainer = () => {
+    
     const { ref: refRight } = useWebAnimations({ ...bounceInRight});
     const { ref: refLeft } = useWebAnimations({...bounceInLeft});
     return (
@@ -18,7 +20,7 @@ const HeroContainer = () => {
                     have any querry you can contact me.
                 </p>
             </div>
-            <img ref={refRight} src=" " alt="developer avatar" />
+            
         </div>
     )
 }

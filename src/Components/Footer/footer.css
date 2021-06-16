@@ -1,17 +1,16 @@
 .footer-container {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    width: 100%;
+    /* background-color: #E9E9E9; */
     margin: 0;
     padding: 10px;
-
 }
 
 .inner-container {
-    width: 1280px;
+    width: 1980px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -25,16 +24,15 @@
     width: auto;
     justify-content: space-around;
     margin: auto;
+    /* background-color: #000; */
 }
-
 .author {
     margin: auto;
 }
 .icons-container i {
-    margin: 0 0.5rem;
+    margin: 0 1.5rem;
 }
 
 a {
-    color: gold;
+    color: black;
 }
-
