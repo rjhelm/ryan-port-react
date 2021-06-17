@@ -1,11 +1,11 @@
 import React from 'react';
-import useWebAnimations, { bounceInLeft, bounceInRight } from '@wellyshen/use-web-animations';
+import useWebAnimations, { bounceInLeft } from '@wellyshen/use-web-animations';
 import styles from './hero.module.css';
 
 
 const HeroContainer = () => {
     
-    const { ref: refRight } = useWebAnimations({ ...bounceInRight});
+    // const { ref: refRight } = useWebAnimations({ ...bounceInRight});
     const { ref: refLeft } = useWebAnimations({...bounceInLeft});
     return (
         <div className={styles.heroContainer} id="Home">

@@ -23,6 +23,9 @@ const Skills = () => {
       <Zoom duration={1500} top>
         <CreateSkills skills={devSkills} size="9vw" />
       </Zoom>
+      <div>
+        <h2>Resume</h2>
+      </div>
     </div>
   );
 };

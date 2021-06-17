@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Paper, Container, SvgIcon } from "@material-ui/core";
+import { Paper, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import * as colors from "@material-ui/core/colors";
 import Icon from "@material-ui/core/Icon";
@@ -62,7 +62,7 @@ function CreateSkills({ skills, size }) {
             <Icon
               className={`fab fa-${item.name}`}
               style={{
-                color: colors[color][500],
+                color: colors[color],
                 fontSize: "5vw",
                 width: "fit-Content",
               }}
