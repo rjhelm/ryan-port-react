@@ -6,21 +6,20 @@ import appStyles from "../../app.module.css";
 
 const Skills = () => {
   const devSkills = [
-    { name: "js-square", color: `yellow` },
+    { name: "js-square", color: `purple` },
     { name: "react", color: "blue" },
     { name: "html5", color: "deepOrange" },
-    { name: "css3-alt", color: "blue" },
-    { name: "", color: "orange" },
+    { name: "css3-alt", color: "green" },
+    { name: "bootstrap", color: "orange" },
     { name: "github-square", color: "grey" },
-    { name: "mysql", color: "blue" },
-    { name: "nosql", color: "orange" },
-    { name: "node-js", color: "orange" },
-    { name: "express", color: "brown" },
+    { name: "markdown", color: "black" },
+    { name: "npm", color: "yellow" },
+    { name: "node", color: "red" },
   ];
 
   return (
     <div className={styles.skillContainer} id="Skills">
-      <h2 className={appStyles.heading}>Development Skills</h2>
+      <h2 className={appStyles.heading}>More About Me</h2>
       <Zoom duration={1500} top>
         <CreateSkills skills={devSkills} size="9vw" />
       </Zoom>
