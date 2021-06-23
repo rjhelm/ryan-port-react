@@ -1,37 +1,35 @@
 import React from 'react';
-import useWebAnimations, { rubberBand } from '@wellyshen/use-web-animations';
-import styles from './about.module.css';
-import appStyles from "../../app.module.css";
-import Slide from 'react-reveal/Slide';
-import avatar from "../../assets/images/avatar.jpg";
+import { Container, Row, Col } from 'react-bootstrap';
+// import Particle from "../../Helpers/Particle";
+// import Github from './Github';
+// import Tech from './Tech';
+import AboutCard from './AboutCard';
+import AboutImage from '../../assets/jid.jpg';
+
 
 const About = () => {
-    const { ref: refRubber, getAnimation } = useWebAnimations({ ...rubberBand });
-    
     return (
-        <div className={styles.aboutContainer} id="About">
-            <h1 className={appStyles.heading} ref={refRubber} onClick={() => getAnimation().play()}>
-                About
-            </h1>
-            <div className={styles.contentContainer}>
-                <Slide left className=" ">
-                <img
-                src={avatar}
-                alt="developer illustration"
-            />
-                </Slide>
-                <Slide right>
-                    <div className={styles.content}>
-                        <p>
-                            I am a Full Stack Web Developer with a current focus on MERN stack.
-                            I continue to add as much knowledge of the stack as I can,
-                            while also looking into other popular front-end and back-end tools
-                            to become a web developer that can handle any situation.
-                        </p>
-                    </div>
-                </Slide>
-            </div>
-        </div>
+        <Container fluid className="about-section">
+            {/* <Particle /> */}
+            <Container>
+                <Row style={{ justifyContent: 'center', padding: '10px' }}>
+                    <Col md={7} style={{ justifyContent: 'center', paddingTop: '30px', paddingBottom: '50px' }}>
+                        <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
+                            Ryan <strong className="gold">Helm</strong>
+                        </h1>
+                        <AboutCard />
+                    </Col>
+                    <Col md={5} style={{ paddingTop: '100px', paddingBottom: '50px' }} className="about-img">
+                        <img src={AboutImage} alt="about" className="img-fluid" />
+                    </Col>
+                </Row>
+                <h1 className="project-heading">
+                    My <strong className="gold">Stack</strong>
+                </h1>
+                {/* <Tech /> */}
+                {/* <Github /> */}
+            </Container>
+        </Container>
     );
 };
 

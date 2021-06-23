@@ -15,7 +15,7 @@ import styles from './app.module.css';
 
 
 const App = () => {
-  const navList = ['Home', 'About', 'Portfolio', 'Contact'];
+  const navList = ['Home', 'About', 'Skills', 'Portfolio', 'Contact'];
   config({ ssrFadeout: true });
 
   return (
