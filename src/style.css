@@ -47,7 +47,33 @@ html {
 }
 
 .tech-icons {
-    
+    display: table;
+    overflow: hidden !important;
+    text-align: center;
+    vertical-align: middle;
+    margin: 15px;
+    padding: 10px;
+    opacity: 0.93;
+    border: 1.5px solid gold;
+    border-radius: 5px;
+    box-shadow: 4px 5px 4px 3px rgba(192, 192, 192, 0.74);
+    transition: all 0.4s ease 0s;
+    font-size: 4.5em;
+}
+
+.tech-icons:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+    border: 2.2px solid gold;
+}
+
+@media (max-width: 767px) {
+    .about-img {
+        padding-top: 0;
+    }
+    .tech-icons {
+        margin: 10px;
+    }
 }
 
 /* Project Styles */
