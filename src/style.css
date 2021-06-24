@@ -336,6 +336,64 @@ html {
 
 /* Project Styles */
 
+.project-section {
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    background-image: var(--section-background-color) !important;
+}
+
+.project-card {
+    height: auto !important;
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+}
+
+.project-card-display {
+    color: white;
+    background-color: transparent !important;
+    height: 100%;
+    opacity: 0.9;
+    box-shadow: 0 4px 5px 3px white;
+    transition: all 0.5 ease 0s;
+}
+
+.project-card-display:hover {
+    overflow: hidden;
+    box-shadow: 0 4px 4px 5px gold;
+}
+
+.card-img-top {
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn-primary {
+    color: black !important;
+    border-color: gold !important;
+    background-color: gold !important;
+}
+
+.btn-primary:hover {
+    color: gold !important;
+    border-color: black !important;
+    background-color: black !important;
+}
+
+.btn:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.project-heading {
+    font-size: 2.3em;
+    font-weight: 500;
+    padding-top: 10px;
+    color: white !important;
+}
 /* Resume Styles */
 
 /* Footer Styles */
