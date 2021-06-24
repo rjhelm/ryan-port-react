@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 // import Github from './Github';
 // import Tech from './Tech';
 import AboutCard from './AboutCard';
-import AboutImage from '../../assets/jid.jpg';
+import AboutImage from '../../Assets/jid.jpg';
 
 
 const About = () => {

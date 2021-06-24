@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "reacct-bootstrap/Card";
+import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
 const AboutCard = () => {
