@@ -183,6 +183,44 @@ html {
 
 /* Footer Styles */
 
+.footer {
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    background-color: rgba(15, 8, 8, 0.616);
+}
+
+.footer-copywright {
+    text-align: center;
+}
+
+.footer-body {
+    text-align: center;
+}
+
+.footer h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.56em;
+    color: gold;
+}
+
+.footer-icons {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 2.0em;
+}
+
+@media (max-width: 780px) {
+    .footer-copywright {
+      text-align: center ;
+    }
+  
+    .footer-body {
+      text-align: center ;
+    }
+  }
 /* if used */
 /* Preloader */
 
