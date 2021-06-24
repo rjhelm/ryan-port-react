@@ -1,6 +1,6 @@
 {
-  "name": "portfolio",
-  "homepage": "https://github.com/rjhelm/ryan-port-react/",
+  "name": "ryan-port-react",
+  "homepage": "https://rjhelm.github.io/ryan-port-react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
