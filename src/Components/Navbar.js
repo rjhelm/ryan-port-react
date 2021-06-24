@@ -35,8 +35,8 @@ const NavBar = () => {
             className={navColor ? "sticky" : "navbar"}
         >
             <Container>
-                <Navbar.Brand href="/ryan-react-port">
-                    <img src={logo} className="img-fluid logo" alt="brand" />
+                <Navbar.Brand href="/">
+                    <img src={logo} className="logo" alt="brand" />
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
@@ -80,7 +80,7 @@ const NavBar = () => {
                         </Nav.Item>
                         <Nav.Item className="fork-btn">
                             <Button
-                                href="https://github.com/rjhelm/Portfolio"
+                                href="https://github.com/rjhelm/ryan-port-react"
                                 target="_blank"
                                 className="fork-btn-inner"
                             >
