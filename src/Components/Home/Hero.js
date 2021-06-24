@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <Container fluid className="hero-section" id="about">
             <Row>
-                <Col md={8} className="hero-about">
+                <Col md={6} className="hero-about">
                     <h1 style={{ fontSize: "2.6em" }}>
                         I am <span className="gold"> Ryan </span>
                         <br />
@@ -26,11 +26,7 @@ const Hero = () => {
                         </i>
                         <br />
                         <br />
-                        Javascript, React, Node, NoSQL, and MySQL &nbsp;
-                        <i>
-                            <b className="gold"> </b>
-                            {" "}
-                        </i>
+                        Javascript, React, Node, NoSQL, and MySQL 
                         I want to continue learning everything I can pertaining to web development.
                         <br />
 
