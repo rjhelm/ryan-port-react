@@ -35,7 +35,10 @@ const Hero = () => {
                         <br />
 
                         This has become a passion for me and I find myself using my free time to sharpen my existing skills
-                        but also trying to add new tools so I can become a more complete web developer. I hope to continue
+                        <br />
+                        but also trying to add new tools so I can become a more complete web developer. 
+                        <br />
+                        I hope to continue
                         on this path and turn it into a career that I will love.
                     </p>
                 </Col>

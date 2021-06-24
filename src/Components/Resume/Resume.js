@@ -1,10 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Button from "react-bootstrap/Button";
 import Particle from "../../Helpers/Particle";
 import ResumeData from "./ResumeData";
 
-
+import resume from '../../Assets/ryan-res.docx';
 import { AiOutlineDownload } from "react-icons/ai";
 
 const Resume = () => {
@@ -14,12 +16,7 @@ const Resume = () => {
         <Container fluid className="resume-section">
             <Particle />
             <Container>
-                <Row style={{ justifyContent: "center", position: "relative" }}>
-                    <Button variant="primary" target="_blank">
-                        <AiOutlineDownload />
-                        &nbsp;Download CV
-                    </Button>
-                </Row>
+            
                 <Row className="resume">
                     <Col md={6} className="resume-left">
                         <h3 className="resume-title">Job Experience</h3>
@@ -65,8 +62,8 @@ const Resume = () => {
                     </Col>
                 </Row>
                 <Row style={{ justifyContent: "center", position: "relative" }}>
-                    <Button variant="primary" target="_blank">
-                        <AiOutlineDownload />&nbsp;Download CV
+                    <Button variant="primary" href={resume} target="_blank">
+                        <AiOutlineDownload />&nbsp;Resume
                     </Button>
                 </Row>
             </Container>
