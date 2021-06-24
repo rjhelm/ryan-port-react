@@ -455,7 +455,6 @@ html {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   position: relative;
-  border-left: 2px solid gold;
   margin-top: -2px;
 }
 
@@ -495,10 +494,10 @@ html {
   border: 2px solid gold;
 }
 
-.fork-btn {
+/* .fork-btn {
   font-size: 1.1em;
   padding-top: 10px;
-}
+} */
 
 .fork-btn-inner {
   line-height: 1.4em;
