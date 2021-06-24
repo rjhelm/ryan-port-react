@@ -32,8 +32,8 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/project" component={Projects} />
           <Route path="/resume" component={Resume} />
+          <Footer />
         </Switch>
-        <Footer />
       </div>
     </Router>
   );
