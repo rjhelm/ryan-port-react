@@ -2,7 +2,7 @@
   
 <p align="center">
     <img src="https://img.shields.io/github/languages/top/rjhelm/ryan-port-react"  />
-    <img src="https://img.shields.io/github/last-commit/rjhelm/ryan-port-react" >
+    <img src="https://img.shields.io/github/last-commit/rjhelm/ryan-port-react" />
 </p>
   
 <p align="center">
@@ -15,11 +15,6 @@
 ## Description
 
 Personal Full Stack Web Developer Portfolio built with react.
-  
-![Seeds](https://github.com/rjhelm/ecommerce-platform/blob/main/assets/run-seeeds.PNG)
-
-![Start](https://github.com/rjhelm/ecommerce-platform/blob/main/assets/start-app.PNG)
-
 
   
 ## User Story
