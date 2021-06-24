@@ -125,6 +125,163 @@ html {
 
 /* Home Styles */
 
+#tsparticles {
+    position: fixed ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    width: 100%;
+    height: 100%;
+}
+
+.home-section {
+    z-index: -1;
+    position: relative;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    background-position: center;
+    background-image: var(--image-gradient), url(./Assets/home-bg.png);
+}
+
+.home-header {
+    padding-top: 75px;
+}
+
+.heading {
+    font-size: 2.3em;
+    padding-left: 50px;
+}
+
+.heading-name {
+    padding-left: 45px;
+    font-size: 2.4em;
+}
+
+.main-name {
+    color: gold !important;
+}
+
+.home-content {
+    padding: 9rem 0 2rem;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.Typewriter__wrapper {
+    font-size: 2.2em;
+    font-weight: 600;
+    color: gold !important;
+}
+
+.Typewriter__cursor {
+    color: white !important;
+    font-size: 2.4em;
+}
+
+.hero-section {
+    position: relative;
+    background-position: top center;
+    background-color: #181a27;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.hero-about {
+    text-align: center;
+    color: white !important;
+    padding-top: 95px;
+    padding-bottom: 20px;
+}
+
+.hero-body {
+    text-align: left;
+    font-size: 1.2em;
+    padding-top: 50px;
+}
+
+.hero-social {
+    color: white !important;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.avatar {
+    padding-top: 9em;
+    justify-content: center;
+}
+
+.hero-links {
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+    padding-inline-start: 0;
+    padding-top: 15px;
+}
+
+.hero-social-icons {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.7em;
+    color: white !important;
+    background: rgb(102, 91, 91) !important;
+    line-height: 2em;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+.hero-social-icons::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: gold !important;
+    transition: 0.5s;
+    transform: scale(0.9);
+    border-radius: 50%;
+}
+
+.hero-social-icons:hover::before {
+    box-shadow: 0 0 15px white;
+    transform: scale(1.1);
+}
+
+.hero-social-icons:hover {
+    text-shadow: 0 0 2px gold;
+    box-shadow: 0 0 5px black;
+    color: gold;
+}
+
+.social-icons {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.icon-color {
+    background-color: white !important;
+    color: gold !important;
+}
+
+@media (max-width: 780px) {
+    .avatar {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .Typewriter__wrapper {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.4em;
+    }
+    .Typewriter__cursor {
+        display: none;
+    }
+}
+
 /* About Styles */
 
 .about-section {
