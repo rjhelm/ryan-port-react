@@ -35,7 +35,7 @@ const NavBar = () => {
             className={navColor ? "sticky" : "navbar"}
         >
             <Container>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/ryan-port-react">
                     <img src={logo} className="logo" alt="brand" />
                 </Navbar.Brand>
                 <Navbar.Toggle
