@@ -33,7 +33,7 @@ const Footer = () => {
                             </a>
                         </li>
                         <li className="social-icons">
-                            <a href="https://www.instagram.com/ryanj_dev/" style={{ color: "white" }} >
+                            <a href="https://www.instagram.com/ryan_j_dev/" style={{ color: "white" }} >
                                 <AiFillInstagram />
                             </a>
                         </li>
