@@ -14,15 +14,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "../src/Helpers/ScrollToTop";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, updateLoad] = useState(true);
   useEffect(() => {
     setTimeout(() => {
-      upadateLoad(false);
+      updateLoad(false);
     }, 1200);
   }, []);
 
   return (
-    <Router>
+    <Router basename='/ryan-port-react'>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
