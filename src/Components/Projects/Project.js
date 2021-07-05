@@ -11,7 +11,7 @@ import spotify from "../../Assets/Projects/spotify.PNG";
 import weather from "../../Assets/Projects/weather.png";
 import snek from "../../Assets/Projects/snek.png";
 import notes from "../../Assets/Projects/note-taker.png";
-import mtg from '../../Assets/Projects/mtg.PNG;'
+import mtg from '../../Assets/Projects/mtg.PNG';
 
 const Projects = () => {
     return (
