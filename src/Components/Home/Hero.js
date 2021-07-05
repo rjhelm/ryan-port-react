@@ -83,7 +83,7 @@ const Hero = () => {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.instagram.com/ryanj_dev/"
+                                href="https://www.instagram.com/ryan_j_dev/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="icon-color  hero-social-icons"
