@@ -11,6 +11,7 @@ import spotify from "../../Assets/Projects/spotify.PNG";
 import weather from "../../Assets/Projects/weather.png";
 import snek from "../../Assets/Projects/snek.png";
 import notes from "../../Assets/Projects/note-taker.png";
+import mtg from '../../Assets/Projects/mtg.PNG;'
 
 const Projects = () => {
     return (
@@ -68,6 +69,14 @@ const Projects = () => {
                             title="Spotify Clone"
                             description="A simple clone of spotify that will authorize a user and open up to account page. Created to show react front-end capability."
                             link="https://github.com/rjhelm/spotify-clone"
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={mtg}
+                            title="MTG Social"
+                            description="Application for MTG players to find games with other players, discuss decks, and cards. Users regiser, login, logout. They can also post, reply, comment, up and down vote posts. This application is Full-Stack built using MERN stack. Database function, GraphQL, express server, React frontend."
+                            link="https://socialist-loonie-29332.herokuapp.com/"
                         />
                     </Col>
                 </Row>

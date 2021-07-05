@@ -18,10 +18,12 @@ const Github = () => {
                 <strong className="gold">GitHub</strong>
             </h1>
             <GitHubCalender username="rjhelm" 
-            blockSize={15}
-            blockMargin={5}
-            theme={colorTheme}
-            fontSize={19} />
+                blockSize={15}
+                blockMargin={5}
+                theme={colorTheme}
+                fontSize={19} 
+
+            />
         </Row>
     );
 }
