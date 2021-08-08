@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../../Helpers/Particle";
 import ResumeData from "./ResumeData";
 
-import resume from '../../Assets/ryan-res.docx';
+import resume from '../../Assets/updatedres.docx';
 import { AiOutlineDownload } from "react-icons/ai";
 
 const Resume = () => {
@@ -16,7 +16,9 @@ const Resume = () => {
         <Container fluid className="resume-section">
             <Particle />
             <Container>
-            
+            <Button variant="primary" href={resume} target="_blank">
+                        <AiOutlineDownload />&nbsp;Resume
+                    </Button>
                 <Row className="resume">
                     <Col md={6} className="resume-left">
                         <h3 className="resume-title">Job Experience</h3>
