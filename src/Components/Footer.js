@@ -28,7 +28,7 @@ const Footer = () => {
                             </a>
                         </li>
                         <li className="social-icons">
-                            <a href="https://www.linkedin.com/in/rjhelm/" style={{ color: "white" }} >
+                            <a href="https://www.linkedin.com/in/ryjhelm/" style={{ color: "white" }} >
                                 <FaLinkedinIn />
                             </a>
                         </li>

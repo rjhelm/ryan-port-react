@@ -1,0 +1,16 @@
+{
+    "pullRequestConfig": {
+        "provider": "github",
+        "hostRootUrl": "https://github.com",
+        "sourceRemote": "origin",
+        "sourceOwner": "rjhelm",
+        "sourceRepo": "ryan-port-react",
+        "destRemote": "origin",
+        "destOwner": "rjhelm",
+        "destRepo": "ryan-port-react",
+        "destProjectId": "",
+        "destBranch": "gh-pages",
+        "custom": null
+    },
+    "exportedAt": 1625620054664
+}
