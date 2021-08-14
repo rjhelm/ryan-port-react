@@ -16,9 +16,6 @@ const Resume = () => {
         <Container fluid className="resume-section">
             <Particle />
             <Container>
-            <Button variant="primary" href={resume} target="_blank">
-                        <AiOutlineDownload />&nbsp;Resume
-                    </Button>
                 <Row className="resume">
                     <Col md={6} className="resume-left">
                         <h3 className="resume-title">Job Experience</h3>
