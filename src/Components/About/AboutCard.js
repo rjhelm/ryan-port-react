@@ -11,24 +11,24 @@ const AboutCard = () => {
                         <span className="gold">Ryan H</span> <br />
                         Salt Lake City, Utah.
                         <br />
-                        I am a current student at the University of Utah Coding Bootcamp
+                        Certified Full-Stack Web Developer
                         <br />
-                        I also am a student at Salt Lake Community College
+                        MongoDB, MySQL, Node, Express, React
                         <br />
-                        My main focus is Programming and Computer Science
+                        Currently exploring Python, AWS, Vue, React Native
                         <br />
                         I also enjoy:
                     </p>
 
                     <ul>
                         <li className="about-hobby">
-                            <ImPointRight /> Video and Card Games
+                            <ImPointRight /> Learning in general
                         </li>
                         <li className="about-hobby">
-                            <ImPointRight /> Sports, Music, and Technology.
+                            <ImPointRight /> Music, Reading, Tech, Sports
                         </li>
                         <li className="about-hobby">
-                            <ImPointRight /> Time with Wife and 3 kids.
+                            <ImPointRight /> Being a dad.
                         </li>
 
                     </ul>

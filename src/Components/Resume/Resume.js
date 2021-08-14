@@ -23,10 +23,10 @@ const Resume = () => {
                     <Col md={6} className="resume-left">
                         <h3 className="resume-title">Job Experience</h3>
                         <ResumeData
-                            title="Backcountry Associate"
+                            title="Tier III Technical Support Agent"
                             date="Present"
                             content={[
-                                "I currently work at Backcountry where we aim to be the go to provider of outdoor suplies. I am asked to do anything they may need and work to be a reliable and helpful individual that can always be relied upon.",
+                                "I assist customers and other agents resolve technical issues experienced by vivint security users.",
                             ]}
                         />
                         <ResumeData

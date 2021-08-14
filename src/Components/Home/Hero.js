@@ -18,24 +18,21 @@ const Hero = () => {
                         Full-Stack Web Developer
                     </h1>
                     <p className="hero-body">
-                        I love technology and have always had a deep interest.
+                        Coding has always been the career I saw myself in
                         <br />
-                        <br />Programming became a natural fit as I had passion for it and desire to learn.
+                        <br />Coding has become a passion of mine that I want to continue to learn and explore.
                         <i>
-                            <b className="gold"> My main focus has been MERN stack. </b>
+                            <b className="gold"> I learned coding using the MERN Stack but have since taken oppurtunities to learn many other programming languages and tools </b>
                         </i>
                         <br />
                         <br />
-                        Javascript, React, Node, NoSQL, and MySQL 
-                        I want to continue learning everything I can pertaining to web development.
+                        Javascript, React, Node, NoSQL, Git, HTML, CSS.
                         <br />
-
-                        This has become a passion for me and I find myself using my free time to sharpen my existing skills
+                        My dream career is now one of my favorite hobbies and I have a hunger to add as much knowledge and experience as I can.
                         <br />
-                        but also trying to add new tools so I can become a more complete web developer. 
+                        to be an elite programmer.
                         <br />
-                        I hope to continue
-                        on this path and turn it into a career that I will love.
+                        Now Certified as a Full-Stack Web Developer I will begin my dream career path and leave a positive, lasting impression in this field.
                     </p>
                 </Col>
                 <Col md={4} className="avatar">
@@ -73,7 +70,7 @@ const Hero = () => {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.linkedin.com/in/rjhelm/"
+                                href="https://www.linkedin.com/in/ryjhelm/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="icon-color  hero-social-icons"
