@@ -4,7 +4,7 @@ import Particle from "../../Helpers/Particle";
 import Github from './Github';
 import Tech from './Tech';
 import AboutCard from './AboutCard';
-import AboutImage from '../../Assets/jid.jpg';
+import AboutImage from '../../Assets/certification.png';
 
 
 const About = () => {
