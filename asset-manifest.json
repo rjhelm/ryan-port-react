@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ryan-port-react/static/css/main.f104ff3b.chunk.css",
-    "main.js": "/ryan-port-react/static/js/main.1adc2a5b.chunk.js",
-    "main.js.map": "/ryan-port-react/static/js/main.1adc2a5b.chunk.js.map",
+    "main.js": "/ryan-port-react/static/js/main.37a360af.chunk.js",
+    "main.js.map": "/ryan-port-react/static/js/main.37a360af.chunk.js.map",
     "runtime-main.js": "/ryan-port-react/static/js/runtime-main.bd49237c.js",
     "runtime-main.js.map": "/ryan-port-react/static/js/runtime-main.bd49237c.js.map",
     "static/css/2.92200efa.chunk.css": "/ryan-port-react/static/css/2.92200efa.chunk.css",
@@ -15,8 +15,8 @@
     "static/css/main.f104ff3b.chunk.css.map": "/ryan-port-react/static/css/main.f104ff3b.chunk.css.map",
     "static/js/2.0adc1423.chunk.js.LICENSE.txt": "/ryan-port-react/static/js/2.0adc1423.chunk.js.LICENSE.txt",
     "static/media/avatar.cf33c3a0.jpg": "/ryan-port-react/static/media/avatar.cf33c3a0.jpg",
+    "static/media/certification.e6af9bf1.png": "/ryan-port-react/static/media/certification.e6af9bf1.png",
     "static/media/style.css": "/ryan-port-react/static/media/pre.d4812f51.svg",
-    "static/media/jid.3e4f8555.jpg": "/ryan-port-react/static/media/jid.3e4f8555.jpg",
     "static/media/logo-transparent.6e96b9b9.png": "/ryan-port-react/static/media/logo-transparent.6e96b9b9.png",
     "static/media/mtg.46b9702f.PNG": "/ryan-port-react/static/media/mtg.46b9702f.PNG",
     "static/media/note-taker.98bfa8a9.png": "/ryan-port-react/static/media/note-taker.98bfa8a9.png",
@@ -32,6 +32,6 @@
     "static/css/2.92200efa.chunk.css",
     "static/js/2.0adc1423.chunk.js",
     "static/css/main.f104ff3b.chunk.css",
-    "static/js/main.1adc2a5b.chunk.js"
+    "static/js/main.37a360af.chunk.js"
   ]
 }
