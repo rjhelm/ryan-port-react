@@ -13,7 +13,7 @@ const Footer = () => {
                     <h3>ryanj_dev</h3>
                 </Col>
                 <Col md="4" className="footer-copywright">
-                    <h3>Original Art by FlockoJordo</h3>
+                    <h3>ryjhelm@gmail.com</h3>
                 </Col>
                 <Col md="4" className="footer-body">
                     <ul className="footer-icons">
