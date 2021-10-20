@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Particle from "../../Helpers/Particle";
 import Hero from "./Hero";
 import Typing from "./Typing";
-import soybean from "../../Assets/soybean.jpg";
+import hero from "../../Assets/ryanjdev.png";
 
 const Home = () => {
   return (
@@ -26,7 +26,7 @@ const Home = () => {
               </div>
             </Col>
             <Col md={6} style={{ paddingBottom: 20 }}>
-              <img src={soybean} alt="home pic" className="img-fluid" />
+              <img src={hero} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
         </Container>

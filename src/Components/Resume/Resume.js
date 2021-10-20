@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../../Helpers/Particle";
 import ResumeData from "./ResumeData";
 
-import resume from '../../Assets/updatedres.docx';
+import resume from '../../Assets/ryan-resume.docx';
 import { AiOutlineDownload } from "react-icons/ai";
 
 const Resume = () => {
@@ -23,7 +23,7 @@ const Resume = () => {
                             title="Tier III Technical Support Agent"
                             date="Present"
                             content={[
-                                "I assist customers and other agents resolve technical issues experienced by vivint security users.",
+                                "I troubleshoot system issues to resolve technical issues with vivint security systems. Responsible for checking security system and ensure they are running properly. Communicate resolutions to system issues to agents or customers.",
                             ]}
                         />
                         <ResumeData
@@ -44,7 +44,7 @@ const Resume = () => {
                         <h3 className="resume-title">Education</h3>
                         <ResumeData
                             title="University of Utah Coding Bootcamp"
-                            date="January - Present"
+                            date="January - July 2021"
                             content={[" "]}
                         />
                         <ResumeData
